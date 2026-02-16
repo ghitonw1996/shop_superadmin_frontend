@@ -16,7 +16,7 @@ import {
   Check, Copy,
   Clock // ✅ เพิ่ม icon Clock
 } from 'lucide-react';
-import { type CartItem } from '../../types/lotto';
+import { CartItem } from '../../types/lotto';
 import { generateNumbers, generateSpecialNumbers, generateReturnNumbers } from '../../types/lottoLogic';
 import { supabase } from '../../utils/supabaseClient.ts';
 import toast from 'react-hot-toast';

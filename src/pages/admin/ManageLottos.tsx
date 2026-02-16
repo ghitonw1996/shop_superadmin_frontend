@@ -6,7 +6,7 @@ import {
   Clock, CheckCircle, AlertCircle, ChevronDown, Database,
   Trash2, Coins, FolderCog, Palette, Save
 } from 'lucide-react';
-import type { LottoType, RateProfile } from '../../types/lotto';
+import { LottoType, RateProfile } from '../../types/lotto';
 import toast from 'react-hot-toast';
 import { alertAction, confirmAction } from '../../utils/toastUtils';
 
